@@ -127,7 +127,7 @@
 -define:MIRROR_78_OR_NEWER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"D:/git-projects/Racing/Road/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+-r:"D:/Projects/track-racing/Road/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
 -r:"D:/Soft/Unity Hub/Version/2021.3.21f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"D:/Soft/Unity Hub/Version/2021.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"D:/Soft/Unity Hub/Version/2021.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
