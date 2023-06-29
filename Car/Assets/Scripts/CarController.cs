@@ -19,6 +19,14 @@ public class CarController : MonoBehaviour
     [SerializeField] private float _maxAngel;
     [SerializeField] private float _brakeForce;
 
+    private Rigidbody _rb;
+
+    private void Start()
+    {
+        _rb = GetComponent<Rigidbody>();
+        _rb.centerOfMass = new Vector3 (0f, 0f, 0.5f);
+    }
+
     private void FixedUpdate()
     {
         _wheelColliderFL.motorTorque = Input.GetAxis("Vertical") * _force;
