@@ -363,6 +363,7 @@
 "Assets/Barrier Pack/Scripts/PostEffectsBase.cs"
 "Assets/Car/Scripts/CameraController.cs"
 "Assets/Car/Scripts/CarController.cs"
+"Assets/UI/Scripts/MainMenu.cs"
 -langversion:9.0
 
 /deterministic
