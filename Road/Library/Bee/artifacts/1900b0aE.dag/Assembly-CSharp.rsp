@@ -127,8 +127,8 @@
 -define:MIRROR_78_OR_NEWER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"D:/git-projects/Racing/Road/Library/PackageCache/com.unity.testtools.codecoverage@1.2.2/lib/ReportGenerator/ReportGeneratorMerged.dll"
--r:"D:/git-projects/Racing/Road/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"D:/Projects/track-racing/Road/Library/PackageCache/com.unity.testtools.codecoverage@1.2.2/lib/ReportGenerator/ReportGeneratorMerged.dll"
+-r:"D:/Projects/track-racing/Road/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"D:/Soft/Unity Hub/Version/2021.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"D:/Soft/Unity Hub/Version/2021.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
 -r:"D:/Soft/Unity Hub/Version/2021.3.21f1/Editor/Data/Managed/UnityEngine/UnityEditor.DiagnosticsModule.dll"
@@ -361,6 +361,9 @@
 "Assets/Barrier Pack/Scripts/ContrastStretch.cs"
 "Assets/Barrier Pack/Scripts/GlobalFog.cs"
 "Assets/Barrier Pack/Scripts/PostEffectsBase.cs"
+"Assets/Car/Scripts/CameraController.cs"
+"Assets/Car/Scripts/CarController.cs"
+"Assets/UI/Scripts/MainMenu.cs"
 -langversion:9.0
 
 /deterministic
