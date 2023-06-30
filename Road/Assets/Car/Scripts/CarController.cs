@@ -19,6 +19,8 @@ public class CarController : MonoBehaviour
     [SerializeField] private float _maxAngel;
     [SerializeField] private float _brakeForce;
 
+    private float _moveX;
+
     private Rigidbody _rb;
 
     private void Start()
@@ -29,9 +31,14 @@ public class CarController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        _wheelColliderFL.motorTorque = Input.GetAxis("Vertical") * _force;
-        _wheelColliderFR.motorTorque = Input.GetAxis("Vertical") * _force;
+        _moveX = Input.GetAxis("Vertical") * _force;
 
+        if (_rb.velocity.magnitude > _maxSpeed)
+        {
+            _moveX = 0;
+        }
+        _wheelColliderFL.motorTorque = _moveX;
+        _wheelColliderFR.motorTorque = _moveX;
         if (Input.GetKey(KeyCode.Space))
         {
             _wheelColliderFL.brakeTorque = _brakeForce;
