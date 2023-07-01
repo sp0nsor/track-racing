@@ -358,12 +358,13 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/Barrier Pack/Scripts/ContrastStretch.cs"
-"Assets/Barrier Pack/Scripts/GlobalFog.cs"
-"Assets/Barrier Pack/Scripts/PostEffectsBase.cs"
 "Assets/Car/Scripts/CameraController.cs"
 "Assets/Car/Scripts/CarController.cs"
+"Assets/Road/Barrier Pack/Scripts/ContrastStretch.cs"
+"Assets/Road/Barrier Pack/Scripts/GlobalFog.cs"
+"Assets/Road/Barrier Pack/Scripts/PostEffectsBase.cs"
 "Assets/UI/Scripts/MainMenu.cs"
+"Assets/UI/Scripts/PlayerSelect.cs"
 -langversion:9.0
 
 /deterministic
