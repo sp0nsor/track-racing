@@ -19,14 +19,17 @@ public class CarController : MonoBehaviour
     [SerializeField] private float _maxAngel;
     [SerializeField] private float _brakeForce;
 
-    private float _moveX;
+    [SerializeField] private GameObject centerMass;
 
+    private float _moveX;
     private Rigidbody _rb;
+    private Vector3 vectorMass;
 
     private void Start()
     {
+        centerMass.transform.position = vectorMass;
         _rb = GetComponent<Rigidbody>();
-        _rb.centerOfMass = new Vector3 (0f, 0f, 0.5f);
+        _rb.centerOfMass = vectorMass;
     }
 
     private void FixedUpdate()

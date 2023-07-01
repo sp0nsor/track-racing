@@ -364,6 +364,7 @@
 "Assets/Road/Barrier Pack/Scripts/GlobalFog.cs"
 "Assets/Road/Barrier Pack/Scripts/PostEffectsBase.cs"
 "Assets/UI/Scripts/MainMenu.cs"
+"Assets/UI/Scripts/PlayerSelect.cs"
 -langversion:9.0
 
 /deterministic
