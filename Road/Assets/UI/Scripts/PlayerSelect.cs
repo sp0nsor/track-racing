@@ -28,7 +28,6 @@ public class PlayerSelect : MonoBehaviour
         {
             cars[index].SetActive(true);
         }
-
         cameraController = Camera.main.GetComponent<CameraController>();
         cameraController.SetTarget(cars[index].transform);
     }

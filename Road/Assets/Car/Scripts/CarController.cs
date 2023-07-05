@@ -14,14 +14,14 @@ public class CarController : MonoBehaviour
     [SerializeField] private WheelCollider _wheelColliderBL;
     [SerializeField] private WheelCollider _wheelColliderBR;
 
-    [SerializeField] private float _force;
+    [SerializeField] public float _force;
     [SerializeField] private float _maxSpeed;
-    [SerializeField] private float _maxAngel;
+    [SerializeField] public float _maxAngel;
     [SerializeField] private float _brakeForce;
 
     [SerializeField] private GameObject centerMass;
 
-    private float _moveX;
+    private float _move;
     private Rigidbody _rb;
     private Vector3 vectorMass;
 
@@ -34,14 +34,14 @@ public class CarController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        _moveX = Input.GetAxis("Vertical") * _force;
+        _move = Input.GetAxis("Vertical") * _force;
 
         if (_rb.velocity.magnitude > _maxSpeed)
         {
-            _moveX = 0;
+            _move = 0;
         }
-        _wheelColliderFL.motorTorque = _moveX;
-        _wheelColliderFR.motorTorque = _moveX;
+        _wheelColliderFL.motorTorque = _move;
+        _wheelColliderFR.motorTorque = _move;
         if (Input.GetKey(KeyCode.Space))
         {
             _wheelColliderFL.brakeTorque = _brakeForce;
