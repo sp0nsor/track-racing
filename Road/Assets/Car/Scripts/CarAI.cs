@@ -7,8 +7,16 @@ public class CarAI : MonoBehaviour
     [SerializeField] private float maxAngel;
     [SerializeField] private float acceleration;
 
-    [SerializeField] private WheelCollider firstWheel;
-    [SerializeField] private WheelCollider secondWheel;
+    [SerializeField] private WheelCollider _wheelColliderFL;
+    [SerializeField] private WheelCollider _wheelColliderFR;
+    [SerializeField] private WheelCollider _wheelColliderBL;
+    [SerializeField] private WheelCollider _wheelColliderBR;
+
+    [SerializeField] private Transform _transformFL;
+    [SerializeField] private Transform _transformFR;
+    [SerializeField] private Transform _transformBL;
+    [SerializeField] private Transform _transformBR;
+
     [SerializeField] private GameObject centerOfMass;
     private Rigidbody rb;
     Vector3 vectorMass;
@@ -30,10 +38,26 @@ public class CarAI : MonoBehaviour
         {
             forse = 0;
         }
-        firstWheel.motorTorque = forse * acceleration;
-        secondWheel.motorTorque = forse * acceleration;
+        _wheelColliderFL.motorTorque = forse * acceleration;
+        _wheelColliderFR.motorTorque = forse * acceleration;
 
-        firstWheel.steerAngle = Mathf.Lerp(firstWheel.steerAngle, turn * maxAngel, 0.5f);
-        secondWheel.steerAngle = Mathf.Lerp(secondWheel.steerAngle, turn * maxAngel, 0.5f);
+        _wheelColliderFL.steerAngle = Mathf.Lerp(_wheelColliderFL.steerAngle, turn * maxAngel, 0.5f);
+        _wheelColliderFR.steerAngle = Mathf.Lerp(_wheelColliderFR.steerAngle, turn * maxAngel, 0.5f);
+
+        RotateWheel(_wheelColliderFL, _transformFL);
+        RotateWheel(_wheelColliderFR, _transformFR);
+        RotateWheel(_wheelColliderBL, _transformBL);
+        RotateWheel(_wheelColliderBR, _transformBR);
+
+    }
+    private void RotateWheel(WheelCollider wheelCollider, Transform transform)
+    {
+        Vector3 position;
+        Quaternion rotation;
+
+        wheelCollider.GetWorldPose(out position, out rotation);
+
+        transform.position = position;
+        transform.rotation = rotation;
     }
 }
