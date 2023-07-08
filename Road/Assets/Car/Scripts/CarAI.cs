@@ -7,8 +7,16 @@ public class CarAI : MonoBehaviour
     [SerializeField] private float maxAngel;
     [SerializeField] private float acceleration;
 
-    [SerializeField] private WheelCollider firstWheel;
-    [SerializeField] private WheelCollider secondWheel;
+    [SerializeField] private WheelCollider wheelColliderFL;
+    [SerializeField] private WheelCollider wheelColliderFR;
+    [SerializeField] private WheelCollider wheelColliderBL;
+    [SerializeField] private WheelCollider wheelColliderBR;
+
+    [SerializeField] private Transform transformFL;
+    [SerializeField] private Transform transformFR;
+    [SerializeField] private Transform transformBL;
+    [SerializeField] private Transform transformBR;
+
     [SerializeField] private GameObject centerOfMass;
     private Rigidbody rb;
     Vector3 vectorMass;
@@ -30,10 +38,26 @@ public class CarAI : MonoBehaviour
         {
             forse = 0;
         }
-        firstWheel.motorTorque = forse * acceleration;
-        secondWheel.motorTorque = forse * acceleration;
+        wheelColliderFL.motorTorque = forse * acceleration;
+        wheelColliderFR.motorTorque = forse * acceleration;
 
-        firstWheel.steerAngle = Mathf.Lerp(firstWheel.steerAngle, turn * maxAngel, 0.5f);
-        secondWheel.steerAngle = Mathf.Lerp(secondWheel.steerAngle, turn * maxAngel, 0.5f);
+        wheelColliderFL.steerAngle = Mathf.Lerp(wheelColliderFL.steerAngle, turn * maxAngel, 0.5f);
+        wheelColliderFR.steerAngle = Mathf.Lerp(wheelColliderFR.steerAngle, turn * maxAngel, 0.5f);
+
+        RotateWheel(wheelColliderFL, transformFL);
+        RotateWheel(wheelColliderFR, transformFR);
+        RotateWheel(wheelColliderBL, transformBL);
+        RotateWheel(wheelColliderBR, transformBR);
+
+    }
+    private void RotateWheel(WheelCollider wheelCollider, Transform transform)
+    {
+        Vector3 position;
+        Quaternion rotation;
+
+        wheelCollider.GetWorldPose(out position, out rotation);
+
+        transform.position = position;
+        transform.rotation = rotation;
     }
 }
