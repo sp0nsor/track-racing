@@ -7,15 +7,15 @@ public class CarAI : MonoBehaviour
     [SerializeField] private float maxAngel;
     [SerializeField] private float acceleration;
 
-    [SerializeField] private WheelCollider _wheelColliderFL;
-    [SerializeField] private WheelCollider _wheelColliderFR;
-    [SerializeField] private WheelCollider _wheelColliderBL;
-    [SerializeField] private WheelCollider _wheelColliderBR;
+    [SerializeField] private WheelCollider wheelColliderFL;
+    [SerializeField] private WheelCollider wheelColliderFR;
+    [SerializeField] private WheelCollider wheelColliderBL;
+    [SerializeField] private WheelCollider wheelColliderBR;
 
-    [SerializeField] private Transform _transformFL;
-    [SerializeField] private Transform _transformFR;
-    [SerializeField] private Transform _transformBL;
-    [SerializeField] private Transform _transformBR;
+    [SerializeField] private Transform transformFL;
+    [SerializeField] private Transform transformFR;
+    [SerializeField] private Transform transformBL;
+    [SerializeField] private Transform transformBR;
 
     [SerializeField] private GameObject centerOfMass;
     private Rigidbody rb;
@@ -38,16 +38,16 @@ public class CarAI : MonoBehaviour
         {
             forse = 0;
         }
-        _wheelColliderFL.motorTorque = forse * acceleration;
-        _wheelColliderFR.motorTorque = forse * acceleration;
+        wheelColliderFL.motorTorque = forse * acceleration;
+        wheelColliderFR.motorTorque = forse * acceleration;
 
-        _wheelColliderFL.steerAngle = Mathf.Lerp(_wheelColliderFL.steerAngle, turn * maxAngel, 0.5f);
-        _wheelColliderFR.steerAngle = Mathf.Lerp(_wheelColliderFR.steerAngle, turn * maxAngel, 0.5f);
+        wheelColliderFL.steerAngle = Mathf.Lerp(wheelColliderFL.steerAngle, turn * maxAngel, 0.5f);
+        wheelColliderFR.steerAngle = Mathf.Lerp(wheelColliderFR.steerAngle, turn * maxAngel, 0.5f);
 
-        RotateWheel(_wheelColliderFL, _transformFL);
-        RotateWheel(_wheelColliderFR, _transformFR);
-        RotateWheel(_wheelColliderBL, _transformBL);
-        RotateWheel(_wheelColliderBR, _transformBR);
+        RotateWheel(wheelColliderFL, transformFL);
+        RotateWheel(wheelColliderFR, transformFR);
+        RotateWheel(wheelColliderBL, transformBL);
+        RotateWheel(wheelColliderBR, transformBR);
 
     }
     private void RotateWheel(WheelCollider wheelCollider, Transform transform)

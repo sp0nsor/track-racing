@@ -4,65 +4,68 @@ using UnityEngine;
 
 public class CarController : MonoBehaviour
 {
-    [SerializeField] private Transform _transformFL;
-    [SerializeField] private Transform _transformFR;
-    [SerializeField] private Transform _transformBL;
-    [SerializeField] private Transform _transformBR;
+    [SerializeField] private Transform transformFL;
+    [SerializeField] private Transform transformFR;
+    [SerializeField] private Transform transformBL;
+    [SerializeField] private Transform transformBR;
 
-    [SerializeField] private WheelCollider _wheelColliderFL;
-    [SerializeField] private WheelCollider _wheelColliderFR;
-    [SerializeField] private WheelCollider _wheelColliderBL;
-    [SerializeField] private WheelCollider _wheelColliderBR;
+    [SerializeField] private WheelCollider wheelColliderFL;
+    [SerializeField] private WheelCollider wheelColliderFR;
+    [SerializeField] private WheelCollider wheelColliderBL;
+    [SerializeField] private WheelCollider wheelColliderBR;
 
-    [SerializeField] public float _force;
-    [SerializeField] private float _maxSpeed;
-    [SerializeField] public float _maxAngel;
-    [SerializeField] private float _brakeForce;
+    [SerializeField] public float force;
+    [SerializeField] private float maxSpeed;
+    [SerializeField] public float maxAngel;
+    [SerializeField] private float brakeForce;
 
     [SerializeField] private GameObject centerMass;
 
-    private float _move;
-    private Rigidbody _rb;
+    private float move;
+    private Rigidbody rb;
     private Vector3 vectorMass;
 
     private void Start()
     {
         centerMass.transform.position = vectorMass;
-        _rb = GetComponent<Rigidbody>();
-        _rb.centerOfMass = vectorMass;
+        rb = GetComponent<Rigidbody>();
+        rb.centerOfMass = vectorMass;
     }
 
     private void FixedUpdate()
     {
-        _move = Input.GetAxis("Vertical") * _force;
+        move = Input.GetAxis("Vertical") * force;
 
-        if (_rb.velocity.magnitude > _maxSpeed)
+        if (rb.velocity.magnitude > maxSpeed)
         {
-            _move = 0;
+            move = 0;
         }
-        _wheelColliderFL.motorTorque = _move;
-        _wheelColliderFR.motorTorque = _move;
+        wheelColliderFL.motorTorque = move;
+        wheelColliderFR.motorTorque = move;
         if (Input.GetKey(KeyCode.Space))
         {
-            _wheelColliderFL.brakeTorque = _brakeForce;
-            _wheelColliderFR.brakeTorque = _brakeForce;
-            _wheelColliderBL.brakeTorque = _brakeForce;
-            _wheelColliderBR.brakeTorque = _brakeForce;
+            wheelColliderFL.brakeTorque = move;
+            wheelColliderFR.brakeTorque = move;
+            wheelColliderFL.brakeTorque = move;
+            wheelColliderFL.brakeTorque = move;
         }
         else
         {
-            _wheelColliderFL.brakeTorque = 0f;
-            _wheelColliderFR.brakeTorque = 0f;
-            _wheelColliderBL.brakeTorque = 0f;
-            _wheelColliderBR.brakeTorque = 0f;
+            wheelColliderFL.brakeTorque = 0f;
+            wheelColliderFR.brakeTorque = 0f;
+            wheelColliderBL.brakeTorque = 0f;
+            wheelColliderBR.brakeTorque = 0f;
         }
-        _wheelColliderFL.steerAngle = _maxAngel * Input.GetAxis("Horizontal");
-        _wheelColliderFR.steerAngle = _maxAngel * Input.GetAxis("Horizontal");
+        /*wheelColliderFL.steerAngle = Mathf.Lerp(wheelColliderFL.steerAngle, maxAngel * Input.GetAxis("Horizontal"), 0.5f);
+        wheelColliderFR.steerAngle = Mathf.Lerp (wheelColliderFR.steerAngle,maxAngel * Input.GetAxis("Horizontal"), 0.5f);*/
 
-        RotateWheel(_wheelColliderFL, _transformFL);
-        RotateWheel(_wheelColliderFR, _transformFR);
-        RotateWheel(_wheelColliderBL, _transformBL);
-        RotateWheel(_wheelColliderBR, _transformBR);
+        wheelColliderFL.steerAngle = maxAngel * Input.GetAxis("Horizontal");
+        wheelColliderFR.steerAngle = maxAngel * Input.GetAxis("Horizontal");
+
+        RotateWheel(wheelColliderFL, transformFL);
+        RotateWheel(wheelColliderFR, transformFR);
+        RotateWheel(wheelColliderBL, transformBL);
+        RotateWheel(wheelColliderBR, transformBR);
     }
 
     private void RotateWheel(WheelCollider wheelCollider, Transform transform)
