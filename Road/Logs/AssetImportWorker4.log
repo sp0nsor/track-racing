@@ -1,0 +1,1953 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.21f1 (1b156197d683) revision 1774945'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'ru' Physical Memory: 15741 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Soft\Unity Hub\Version\2021.3.21f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+D:/Projects/track-racing/Road
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+54122
+Successfully changed project path to: D:/Projects/track-racing/Road
+D:/Projects/track-racing/Road
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25440] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 605499986 [EditorId] 605499986 [Version] 1048832 [Id] WindowsEditor(7,t3rixis) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [25440] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 605499986 [EditorId] 605499986 [Version] 1048832 [Id] WindowsEditor(7,t3rixis) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 81.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.21f1 (1b156197d683)
+[Subsystems] Discovering subsystems at path D:/Soft/Unity Hub/Version/2021.3.21f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Projects/track-racing/Road/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Vendor:   NVIDIA
+    VRAM:     3950 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'D:/Soft/Unity Hub/Version/2021.3.21f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Soft/Unity Hub/Version/2021.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Soft/Unity Hub/Version/2021.3.21f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56056
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Soft/Unity Hub/Version/2021.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002272 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 77.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.666 seconds
+Domain Reload Profiling:
+	ReloadAssembly (667ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (440ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (113ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (251ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (120ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002835 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Projects\track-racing\Road\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Projects\track-racing\Road\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.058 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1059ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (813ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (308ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (332ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (230ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3093 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (114.4 KB). Loaded Objects now: 3576.
+Memory consumption went from 123.4 MB to 123.3 MB.
+Total: 3.219800 ms (FindLiveObjects: 0.305900 ms CreateObjectMapping: 0.104600 ms MarkObjects: 2.648500 ms  DeleteObjects: 0.159200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1393124.592229 seconds.
+  path: Assets/Car/Prefabs/Fordd_RS_200.prefab
+  artifactKey: Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Fordd_RS_200.prefab using Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e67107f8cf7679008d94aad77dafc776') in 0.377925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 57.297513 seconds.
+  path: Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab
+  artifactKey: Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab using Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b71f4171a39a9162f73322e690102109') in 0.014666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.751538 seconds.
+  path: Assets/Car/Prefabs/AI/Fordd_RS_200 Variant.prefab
+  artifactKey: Guid(4a942021334070049966558cf94f0cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/AI/Fordd_RS_200 Variant.prefab using Guid(4a942021334070049966558cf94f0cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd14327de8dbcabc5050d1a394037d336') in 0.019118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Car/Prefabs/AI/Audii_Sport_Quattroo_S1 Variant.prefab
+  artifactKey: Guid(d162d0470c06d4d4a8b4036e33572194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/AI/Audii_Sport_Quattroo_S1 Variant.prefab using Guid(d162d0470c06d4d4a8b4036e33572194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08be7bdec50133f45587632a8e6f58d2') in 0.022049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Car/Prefabs/AI/Peugiot_405_T16 Variant.prefab
+  artifactKey: Guid(0cc0856ab9d351f40bbaa887b86d45a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/AI/Peugiot_405_T16 Variant.prefab using Guid(0cc0856ab9d351f40bbaa887b86d45a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1701c986dd606ce4d38100468f134f8') in 0.019550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Car/Prefabs/AI/Mittsubisi_Lancer_GSR Variant.prefab
+  artifactKey: Guid(1c0dc3e6c6ca75141a6164011e169459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/AI/Mittsubisi_Lancer_GSR Variant.prefab using Guid(1c0dc3e6c6ca75141a6164011e169459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5339144993dc73e6edf0bc24044f4478') in 0.020459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Car/Prefabs/AI/Lanncia_Stratoss_Group_4 Variant.prefab
+  artifactKey: Guid(7ce8d25b83e4e494f98127dff2f0b5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/AI/Lanncia_Stratoss_Group_4 Variant.prefab using Guid(7ce8d25b83e4e494f98127dff2f0b5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca679a6c4e2ffad6bb154e37628f6ba') in 0.018928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.115752 seconds.
+  path: Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab
+  artifactKey: Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab using Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f1521c675328d4fd92725c9fa570f8') in 0.011414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.303359 seconds.
+  path: Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab
+  artifactKey: Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab using Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3d3427104977e5075338102fb6b97d6') in 0.011270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.697337 seconds.
+  path: Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab
+  artifactKey: Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab using Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '870003a84c9f9ad8f8eef356eac005cc') in 0.012827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.952248 seconds.
+  path: Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab
+  artifactKey: Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab using Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc516289c2f063347f84206fb2182445') in 0.011403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.696195 seconds.
+  path: Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab
+  artifactKey: Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab using Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd151c61808d8053663ab62d514d8805c') in 0.010388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.114796 seconds.
+  path: Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab
+  artifactKey: Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab using Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '627d4b04c1515ba20313158b746abbd5') in 0.010405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.093321 seconds.
+  path: Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab
+  artifactKey: Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab using Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f326b5781b2a643b035a22ac9f493c7b') in 0.012655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.071334 seconds.
+  path: Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab
+  artifactKey: Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab using Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9eda14a9b3cf02201366d5ed323b54') in 0.011334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.877613 seconds.
+  path: Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab
+  artifactKey: Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab using Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f951e3d0e51e79331e6bb9b5f4792f5') in 0.011130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.044353 seconds.
+  path: Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab
+  artifactKey: Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab using Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c52a2c7e7987188c7594e5b593f392e4') in 0.011097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.042883 seconds.
+  path: Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab
+  artifactKey: Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab using Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c8f7b06b0c94f62f249ce678b9e552') in 0.016977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.721124 seconds.
+  path: Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab
+  artifactKey: Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab using Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497fa35ccdd2f01e1b967f4fedd46b1a') in 0.010771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.738953 seconds.
+  path: Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab
+  artifactKey: Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab using Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa86193a5a963159ef1b076f174ffc58') in 0.010785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.056116 seconds.
+  path: Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab
+  artifactKey: Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab using Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a15a8bef80703bbffdb1bccce565f8') in 0.009908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.895659 seconds.
+  path: Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab
+  artifactKey: Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab using Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e7d93f6f27f679479a2ff2ab70dbd5b') in 0.009871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.158276 seconds.
+  path: Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab
+  artifactKey: Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab using Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f3cd9dfd8c7f062ce594b1adf8ebd8') in 0.010727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.804402 seconds.
+  path: Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab
+  artifactKey: Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab using Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f98300d4efeb9ae35907671ac0465793') in 0.011472 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.014726 seconds.
+  path: Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab
+  artifactKey: Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab using Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f0e4c67600d5442f09e2a552bd30ed') in 0.010952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.616162 seconds.
+  path: Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab
+  artifactKey: Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab using Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb0313b0a0ab9a67f707badfee421b77') in 0.012280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.397838 seconds.
+  path: Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab
+  artifactKey: Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab using Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d8df53e9c951ba529bce46f1ad66c56') in 0.010965 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.523434 seconds.
+  path: Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab
+  artifactKey: Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab using Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd48d8853deef9c600c55f4e2a9295651') in 0.010369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.943203 seconds.
+  path: Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab
+  artifactKey: Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Audii_Sport_Quattroo_S1.prefab using Guid(f975e2aa693172b4abe7079dcfc1aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe13a2372bf24312ae34d87936dd580a') in 0.010634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.091661 seconds.
+  path: Assets/Car/Prefabs/Fordd_Focus_RS_WRC.prefab
+  artifactKey: Guid(fa01fd7801fbfe74ebbefc3c01fa1492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Fordd_Focus_RS_WRC.prefab using Guid(fa01fd7801fbfe74ebbefc3c01fa1492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b860bb48cdfd04c1f035ada1209f0ecc') in 0.017234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.008961 seconds.
+  path: Assets/Car/Prefabs/Fordd_Focus_RS_WRC.prefab
+  artifactKey: Guid(fa01fd7801fbfe74ebbefc3c01fa1492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Fordd_Focus_RS_WRC.prefab using Guid(fa01fd7801fbfe74ebbefc3c01fa1492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa6a4f1fc02d0c57509361c70a72ff6') in 0.012274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.849420 seconds.
+  path: Assets/Car/Prefabs/Fordd_Focus_RS_WRC.prefab
+  artifactKey: Guid(fa01fd7801fbfe74ebbefc3c01fa1492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Fordd_Focus_RS_WRC.prefab using Guid(fa01fd7801fbfe74ebbefc3c01fa1492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda8feb2decf58995bacdb756f553d2f') in 0.011496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.606220 seconds.
+  path: Assets/Car/Prefabs/Fordd_Focus_RS_WRC.prefab
+  artifactKey: Guid(fa01fd7801fbfe74ebbefc3c01fa1492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Fordd_Focus_RS_WRC.prefab using Guid(fa01fd7801fbfe74ebbefc3c01fa1492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c2cffb848feb0282bb52b79e18f0bf') in 0.010389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.753124 seconds.
+  path: Assets/Car/Prefabs/Fordd_Focus_RS_WRC.prefab
+  artifactKey: Guid(fa01fd7801fbfe74ebbefc3c01fa1492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Fordd_Focus_RS_WRC.prefab using Guid(fa01fd7801fbfe74ebbefc3c01fa1492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44de1e3a805f398e062d2809ff1b92bf') in 0.011051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.172135 seconds.
+  path: Assets/Car/Prefabs/Fordd_Focus_RS_WRC.prefab
+  artifactKey: Guid(fa01fd7801fbfe74ebbefc3c01fa1492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Fordd_Focus_RS_WRC.prefab using Guid(fa01fd7801fbfe74ebbefc3c01fa1492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b1180efd9bf5d175f7a88451644ac57') in 0.010381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.909475 seconds.
+  path: Assets/Car/Prefabs/Fordd_Focus_RS_WRC.prefab
+  artifactKey: Guid(fa01fd7801fbfe74ebbefc3c01fa1492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Fordd_Focus_RS_WRC.prefab using Guid(fa01fd7801fbfe74ebbefc3c01fa1492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f802e4791417b7e2e844ef881a1ef6') in 0.012180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.732415 seconds.
+  path: Assets/Car/Prefabs/Fordd_Focus_RS_WRC.prefab
+  artifactKey: Guid(fa01fd7801fbfe74ebbefc3c01fa1492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Fordd_Focus_RS_WRC.prefab using Guid(fa01fd7801fbfe74ebbefc3c01fa1492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4a3e090de069b4087ada6f28bf649b') in 0.012767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.926906 seconds.
+  path: Assets/Car/Prefabs/Fordd_Focus_RS_WRC.prefab
+  artifactKey: Guid(fa01fd7801fbfe74ebbefc3c01fa1492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Fordd_Focus_RS_WRC.prefab using Guid(fa01fd7801fbfe74ebbefc3c01fa1492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4248f4245f1731c7cc57b36c8f64270') in 0.011864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.839890 seconds.
+  path: Assets/Car/Prefabs/Fordd_Focus_RS_WRC.prefab
+  artifactKey: Guid(fa01fd7801fbfe74ebbefc3c01fa1492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Fordd_Focus_RS_WRC.prefab using Guid(fa01fd7801fbfe74ebbefc3c01fa1492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'def61f91e9d940f7623f8033f89d1e95') in 0.010618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.097106 seconds.
+  path: Assets/Car/Prefabs/Fordd_Focus_RS_WRC.prefab
+  artifactKey: Guid(fa01fd7801fbfe74ebbefc3c01fa1492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Fordd_Focus_RS_WRC.prefab using Guid(fa01fd7801fbfe74ebbefc3c01fa1492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc524c97254ca9b9202bfd8ca12232f') in 0.010768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.459077 seconds.
+  path: Assets/Car/Prefabs/Fordd_Focus_RS_WRC.prefab
+  artifactKey: Guid(fa01fd7801fbfe74ebbefc3c01fa1492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Fordd_Focus_RS_WRC.prefab using Guid(fa01fd7801fbfe74ebbefc3c01fa1492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20928b61144adbc42883f6ffce94f124') in 0.011312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.619185 seconds.
+  path: Assets/Car/Prefabs/Fordd_Focus_RS_WRC.prefab
+  artifactKey: Guid(fa01fd7801fbfe74ebbefc3c01fa1492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Fordd_Focus_RS_WRC.prefab using Guid(fa01fd7801fbfe74ebbefc3c01fa1492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7820dd7c15b1637a1cb8a467d99fe3e4') in 0.011154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.310138 seconds.
+  path: Assets/Car/Prefabs/Fordd_Focus_RS_WRC.prefab
+  artifactKey: Guid(fa01fd7801fbfe74ebbefc3c01fa1492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Fordd_Focus_RS_WRC.prefab using Guid(fa01fd7801fbfe74ebbefc3c01fa1492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd64a2933d06382e2bb964f5eda4fd6dc') in 0.010920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.894062 seconds.
+  path: Assets/Car/Prefabs/Fordd_Focus_RS_WRC.prefab
+  artifactKey: Guid(fa01fd7801fbfe74ebbefc3c01fa1492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Fordd_Focus_RS_WRC.prefab using Guid(fa01fd7801fbfe74ebbefc3c01fa1492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bfbc6fea37c94d5ca099a38d9954e3e') in 0.013387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.081551 seconds.
+  path: Assets/Car/Prefabs/Fordd_Focus_RS_WRC.prefab
+  artifactKey: Guid(fa01fd7801fbfe74ebbefc3c01fa1492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Fordd_Focus_RS_WRC.prefab using Guid(fa01fd7801fbfe74ebbefc3c01fa1492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c536c12b001b99b9eefe5e9b34a7928') in 0.010852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.855935 seconds.
+  path: Assets/Car/Prefabs/Fordd_Focus_RS_WRC.prefab
+  artifactKey: Guid(fa01fd7801fbfe74ebbefc3c01fa1492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Fordd_Focus_RS_WRC.prefab using Guid(fa01fd7801fbfe74ebbefc3c01fa1492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf4ae61114942a3a74f203c167916a7') in 0.011034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.154087 seconds.
+  path: Assets/Car/Prefabs/Fordd_Focus_RS_WRC.prefab
+  artifactKey: Guid(fa01fd7801fbfe74ebbefc3c01fa1492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Fordd_Focus_RS_WRC.prefab using Guid(fa01fd7801fbfe74ebbefc3c01fa1492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a085d0152d186fe8446425530711c55b') in 0.012455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.851491 seconds.
+  path: Assets/Car/Prefabs/Fordd_Focus_RS_WRC.prefab
+  artifactKey: Guid(fa01fd7801fbfe74ebbefc3c01fa1492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Fordd_Focus_RS_WRC.prefab using Guid(fa01fd7801fbfe74ebbefc3c01fa1492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4576d6ad7792a2aea88ffb86486f4951') in 0.010229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.279652 seconds.
+  path: Assets/Car/Prefabs/Fordd_RS_200.prefab
+  artifactKey: Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Fordd_RS_200.prefab using Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c3eaeb8ad10070c5a0b3c1e80cb0aa') in 0.016855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.359689 seconds.
+  path: Assets/Car/Prefabs/Fordd_Focus_RS_WRC.prefab
+  artifactKey: Guid(fa01fd7801fbfe74ebbefc3c01fa1492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Fordd_Focus_RS_WRC.prefab using Guid(fa01fd7801fbfe74ebbefc3c01fa1492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38369059e438203fc81f75cbd947ce9') in 0.010896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.449376 seconds.
+  path: Assets/Car/Prefabs/Fordd_RS_200.prefab
+  artifactKey: Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Fordd_RS_200.prefab using Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c6f92fc1f4f2aa6778a9d3afadc105') in 0.015762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.626149 seconds.
+  path: Assets/Car/Prefabs/Fordd_RS_200.prefab
+  artifactKey: Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Fordd_RS_200.prefab using Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884ded1e9fa64ccca75a1b5a6e09f99d') in 0.011801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.100034 seconds.
+  path: Assets/Car/Prefabs/Fordd_RS_200.prefab
+  artifactKey: Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Fordd_RS_200.prefab using Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98efe59027a41e8056be16bc30751a18') in 0.014043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.686221 seconds.
+  path: Assets/Car/Prefabs/Fordd_RS_200.prefab
+  artifactKey: Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Fordd_RS_200.prefab using Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b39755dcbbba0eb722239ee33d68a2d') in 0.012105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.467838 seconds.
+  path: Assets/Car/Prefabs/Fordd_RS_200.prefab
+  artifactKey: Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Fordd_RS_200.prefab using Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ee5bf6ebdcec34333594d5db36f07d9') in 0.010709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.698176 seconds.
+  path: Assets/Car/Prefabs/Fordd_RS_200.prefab
+  artifactKey: Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Fordd_RS_200.prefab using Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd74cbf77f46f6001965b00430a8bb2f') in 0.010698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.009284 seconds.
+  path: Assets/Car/Prefabs/Fordd_RS_200.prefab
+  artifactKey: Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Fordd_RS_200.prefab using Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a0bd2919c5dd5b0c148b514ee93a0d4') in 0.014955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.456958 seconds.
+  path: Assets/Car/Prefabs/Fordd_RS_200.prefab
+  artifactKey: Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Fordd_RS_200.prefab using Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58500e3f0f3b548272184ced550ea552') in 0.012644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.286315 seconds.
+  path: Assets/Car/Prefabs/Fordd_RS_200.prefab
+  artifactKey: Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Fordd_RS_200.prefab using Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4754fddf62bd7dfd163b28c284797027') in 0.010558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.409868 seconds.
+  path: Assets/Car/Prefabs/Fordd_RS_200.prefab
+  artifactKey: Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Fordd_RS_200.prefab using Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '400573404cb81bafe85e68994054f2a8') in 0.010190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.473432 seconds.
+  path: Assets/Car/Prefabs/Fordd_RS_200.prefab
+  artifactKey: Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Fordd_RS_200.prefab using Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d8d8a6f86a4cf6ab4c557a156c9b5e') in 0.010113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.197073 seconds.
+  path: Assets/Car/Prefabs/Fordd_RS_200.prefab
+  artifactKey: Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Fordd_RS_200.prefab using Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de98a576ce9610186ca3361da40cf8fd') in 0.010030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.418950 seconds.
+  path: Assets/Car/Prefabs/Fordd_RS_200.prefab
+  artifactKey: Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Fordd_RS_200.prefab using Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34758b56b915da55e593af32e85f7a70') in 0.010521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.619343 seconds.
+  path: Assets/Car/Prefabs/Fordd_RS_200.prefab
+  artifactKey: Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Fordd_RS_200.prefab using Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac18058b1213f29cc23e4d35fc8e7e5') in 0.010921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.416242 seconds.
+  path: Assets/Car/Prefabs/Fordd_RS_200.prefab
+  artifactKey: Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Fordd_RS_200.prefab using Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c431af8373dbf4806dd41323df372a9') in 0.009210 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.480061 seconds.
+  path: Assets/Car/Prefabs/Fordd_RS_200.prefab
+  artifactKey: Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Fordd_RS_200.prefab using Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cd8ea20daef8a030e729f056d7a2752') in 0.010388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.098302 seconds.
+  path: Assets/Car/Prefabs/Fordd_RS_200.prefab
+  artifactKey: Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Fordd_RS_200.prefab using Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d64b0cb5e33e0f2f7adf2cfd5b3bb3') in 0.011569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.184845 seconds.
+  path: Assets/Car/Prefabs/Fordd_RS_200.prefab
+  artifactKey: Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Fordd_RS_200.prefab using Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612d5a3af253bcf9b1719abe6d41f3de') in 0.011711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.239226 seconds.
+  path: Assets/Car/Prefabs/Fordd_RS_200.prefab
+  artifactKey: Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Fordd_RS_200.prefab using Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f69a357de7a36d2a3e7d7309b3421926') in 0.014018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.686284 seconds.
+  path: Assets/Car/Prefabs/Fordd_RS_200.prefab
+  artifactKey: Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Fordd_RS_200.prefab using Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa74fc03f19b9906d948e7c7a7a07ad7') in 0.011456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.004632 seconds.
+  path: Assets/Car/Prefabs/Fordd_RS_200.prefab
+  artifactKey: Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Fordd_RS_200.prefab using Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22572d2a8c3aa95e0a47f5f112d3e9a2') in 0.010333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.856567 seconds.
+  path: Assets/Car/Prefabs/Fordd_RS_200.prefab
+  artifactKey: Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Fordd_RS_200.prefab using Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b79c97f47f33502f2dc7fadedb449a') in 0.015837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.374055 seconds.
+  path: Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab
+  artifactKey: Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab using Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b54613976e982fae9a740c67984245b9') in 0.016397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.381683 seconds.
+  path: Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab
+  artifactKey: Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab using Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '701da22ba71e07c08a5f7d13cfff13e3') in 0.010889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.300976 seconds.
+  path: Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab
+  artifactKey: Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab using Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c40df0f6086661679a35beeb0b02c83b') in 0.012199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.503140 seconds.
+  path: Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab
+  artifactKey: Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab using Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f02a303e85aa32c8d4bf6a51d82f4a12') in 0.016882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.117323 seconds.
+  path: Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab
+  artifactKey: Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab using Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdae2b6e238e37bc740b4f06add1f18c') in 0.013018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.210391 seconds.
+  path: Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab
+  artifactKey: Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab using Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd402b2fbc11c2a4acb219555664f844') in 0.014208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.251705 seconds.
+  path: Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab
+  artifactKey: Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab using Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4b4440756dd991295e81b166e055df1') in 0.012387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.848070 seconds.
+  path: Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab
+  artifactKey: Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab using Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b64d81c460bcd0f4b410a3c9ed5ab1') in 0.011299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.333995 seconds.
+  path: Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab
+  artifactKey: Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab using Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08a7e96b204c6e340fcde64a814d404e') in 0.010787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.873954 seconds.
+  path: Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab
+  artifactKey: Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab using Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a73e116594b3c76efc63e67b2bcc78e') in 0.011364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.145244 seconds.
+  path: Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab
+  artifactKey: Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab using Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beab9fa41c1ce5571289420a20b14872') in 0.013770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.621921 seconds.
+  path: Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab
+  artifactKey: Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab using Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '052729528df13d2a063df9a9cba57b4f') in 0.010051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.795960 seconds.
+  path: Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab
+  artifactKey: Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab using Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc87fb74f95b6aac3eee216c32c4677') in 0.010186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.052203 seconds.
+  path: Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab
+  artifactKey: Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab using Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb6b1b04292a59df2e93298b53e1721') in 0.010212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.945400 seconds.
+  path: Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab
+  artifactKey: Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab using Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd29eabf9c5837db67e39a27b74a66e1f') in 0.010115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.644256 seconds.
+  path: Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab
+  artifactKey: Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab using Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2fa651d15239b69c4d35156d63cf60') in 0.010552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.211850 seconds.
+  path: Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab
+  artifactKey: Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab using Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d9aa9b74da37e187413146cbcbb6f13') in 0.011694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.398834 seconds.
+  path: Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab
+  artifactKey: Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab using Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4040fbc3a2a21838a80646a7bd68178e') in 0.010559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.007519 seconds.
+  path: Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab
+  artifactKey: Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab using Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4526122efbe350cc5507aab424dc8c57') in 0.011549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.959725 seconds.
+  path: Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab
+  artifactKey: Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab using Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c458a964440a09e597a66a66c1f5f4f') in 0.010229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.141499 seconds.
+  path: Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab
+  artifactKey: Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab using Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd01af8e81e765f4021066fe38eb6f620') in 0.010522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.925944 seconds.
+  path: Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab
+  artifactKey: Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab using Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7677289b391a3edc09e510da5b2aebc') in 0.011846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.211688 seconds.
+  path: Assets/Car/Prefabs/Mittsubisi_Lancer_GSR.prefab
+  artifactKey: Guid(0c46890417ee50f4e89ccff14d280e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Mittsubisi_Lancer_GSR.prefab using Guid(0c46890417ee50f4e89ccff14d280e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbc66bdd5fac13e89b014df57ce28765') in 0.015552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.624490 seconds.
+  path: Assets/Car/Prefabs/Mittsubisi_Lancer_GSR.prefab
+  artifactKey: Guid(0c46890417ee50f4e89ccff14d280e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Mittsubisi_Lancer_GSR.prefab using Guid(0c46890417ee50f4e89ccff14d280e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da69aa7602665a56da7d17f127f06e65') in 0.010732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.868589 seconds.
+  path: Assets/Car/Prefabs/Mittsubisi_Lancer_GSR.prefab
+  artifactKey: Guid(0c46890417ee50f4e89ccff14d280e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Mittsubisi_Lancer_GSR.prefab using Guid(0c46890417ee50f4e89ccff14d280e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a49ff3ee721f9ea7c4c876b27542a29e') in 0.011495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.158554 seconds.
+  path: Assets/Car/Prefabs/Mittsubisi_Lancer_GSR.prefab
+  artifactKey: Guid(0c46890417ee50f4e89ccff14d280e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Mittsubisi_Lancer_GSR.prefab using Guid(0c46890417ee50f4e89ccff14d280e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a920d8f4cc7cd0f338476606d65c0e72') in 0.011733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.073843 seconds.
+  path: Assets/Car/Prefabs/Mittsubisi_Lancer_GSR.prefab
+  artifactKey: Guid(0c46890417ee50f4e89ccff14d280e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Mittsubisi_Lancer_GSR.prefab using Guid(0c46890417ee50f4e89ccff14d280e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b5884baaca2a1650e6608369e63dbfc') in 0.010509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.546743 seconds.
+  path: Assets/Car/Prefabs/Mittsubisi_Lancer_GSR.prefab
+  artifactKey: Guid(0c46890417ee50f4e89ccff14d280e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Mittsubisi_Lancer_GSR.prefab using Guid(0c46890417ee50f4e89ccff14d280e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '318027a3f74a427aa75e416afcb39ad9') in 0.013004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.159659 seconds.
+  path: Assets/Car/Prefabs/Mittsubisi_Lancer_GSR.prefab
+  artifactKey: Guid(0c46890417ee50f4e89ccff14d280e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Mittsubisi_Lancer_GSR.prefab using Guid(0c46890417ee50f4e89ccff14d280e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dda0499861e048509322d5162c6f5cb0') in 0.011279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.041261 seconds.
+  path: Assets/Car/Prefabs/Mittsubisi_Lancer_GSR.prefab
+  artifactKey: Guid(0c46890417ee50f4e89ccff14d280e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Mittsubisi_Lancer_GSR.prefab using Guid(0c46890417ee50f4e89ccff14d280e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9118286051dabd8d2bbc6e8e084835') in 0.013755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.444748 seconds.
+  path: Assets/Car/Prefabs/Mittsubisi_Lancer_GSR.prefab
+  artifactKey: Guid(0c46890417ee50f4e89ccff14d280e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Mittsubisi_Lancer_GSR.prefab using Guid(0c46890417ee50f4e89ccff14d280e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc314a03eefe26492f88c551d66f261') in 0.011797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.176531 seconds.
+  path: Assets/Car/Prefabs/Mittsubisi_Lancer_GSR.prefab
+  artifactKey: Guid(0c46890417ee50f4e89ccff14d280e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Mittsubisi_Lancer_GSR.prefab using Guid(0c46890417ee50f4e89ccff14d280e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff548953d5403400c007a8e64f80c036') in 0.011863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.933300 seconds.
+  path: Assets/Car/Prefabs/Mittsubisi_Lancer_GSR.prefab
+  artifactKey: Guid(0c46890417ee50f4e89ccff14d280e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Mittsubisi_Lancer_GSR.prefab using Guid(0c46890417ee50f4e89ccff14d280e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb944f281cb5c0b90659c90dd6b06bd9') in 0.137677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.980805 seconds.
+  path: Assets/Car/Prefabs/Mittsubisi_Lancer_GSR.prefab
+  artifactKey: Guid(0c46890417ee50f4e89ccff14d280e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Mittsubisi_Lancer_GSR.prefab using Guid(0c46890417ee50f4e89ccff14d280e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '968fc3dd9ad7f54c439ac5ef9b2fb079') in 0.012544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.398292 seconds.
+  path: Assets/Car/Prefabs/Mittsubisi_Lancer_GSR.prefab
+  artifactKey: Guid(0c46890417ee50f4e89ccff14d280e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Mittsubisi_Lancer_GSR.prefab using Guid(0c46890417ee50f4e89ccff14d280e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba22ae5430525d1c2918c5aee30f368') in 0.012507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.792650 seconds.
+  path: Assets/Car/Prefabs/Mittsubisi_Lancer_GSR.prefab
+  artifactKey: Guid(0c46890417ee50f4e89ccff14d280e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Mittsubisi_Lancer_GSR.prefab using Guid(0c46890417ee50f4e89ccff14d280e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b48111d18a12cc220c77d65eb79746') in 0.010166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.415450 seconds.
+  path: Assets/Car/Prefabs/Mittsubisi_Lancer_GSR.prefab
+  artifactKey: Guid(0c46890417ee50f4e89ccff14d280e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Mittsubisi_Lancer_GSR.prefab using Guid(0c46890417ee50f4e89ccff14d280e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd183f3df27c2316164a9ff59032d3ef') in 0.011518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.407237 seconds.
+  path: Assets/Car/Prefabs/Mittsubisi_Lancer_GSR.prefab
+  artifactKey: Guid(0c46890417ee50f4e89ccff14d280e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Mittsubisi_Lancer_GSR.prefab using Guid(0c46890417ee50f4e89ccff14d280e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f75d1c8f036b8f0b0d5706850d8644b') in 0.011847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.009240 seconds.
+  path: Assets/Car/Prefabs/Mittsubisi_Lancer_GSR.prefab
+  artifactKey: Guid(0c46890417ee50f4e89ccff14d280e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Mittsubisi_Lancer_GSR.prefab using Guid(0c46890417ee50f4e89ccff14d280e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddbff81c6808788882fc5feecaf26e0d') in 0.011325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.316296 seconds.
+  path: Assets/Car/Prefabs/Mittsubisi_Lancer_GSR.prefab
+  artifactKey: Guid(0c46890417ee50f4e89ccff14d280e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Mittsubisi_Lancer_GSR.prefab using Guid(0c46890417ee50f4e89ccff14d280e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf99b044a291e9a8a111e7d80fb16cf') in 0.009578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.088049 seconds.
+  path: Assets/Car/Prefabs/peugeott_205.prefab
+  artifactKey: Guid(8ed30a1afa878444eb55989315b9d758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/peugeott_205.prefab using Guid(8ed30a1afa878444eb55989315b9d758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0105f9298bd6f41d30bcf09bf5ea3ca5') in 0.017479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.487936 seconds.
+  path: Assets/Car/Prefabs/peugeott_205.prefab
+  artifactKey: Guid(8ed30a1afa878444eb55989315b9d758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/peugeott_205.prefab using Guid(8ed30a1afa878444eb55989315b9d758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b703efa449b1775dc5ade6dca59064e4') in 0.013300 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.689173 seconds.
+  path: Assets/Car/Prefabs/peugeott_205.prefab
+  artifactKey: Guid(8ed30a1afa878444eb55989315b9d758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/peugeott_205.prefab using Guid(8ed30a1afa878444eb55989315b9d758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5efe4e4a6a42dd5d306048e629fa5c83') in 0.012240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.684749 seconds.
+  path: Assets/Car/Prefabs/peugeott_205.prefab
+  artifactKey: Guid(8ed30a1afa878444eb55989315b9d758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/peugeott_205.prefab using Guid(8ed30a1afa878444eb55989315b9d758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '177fe4e3eebf4418023b67f9c5ea8322') in 0.012265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.477992 seconds.
+  path: Assets/Car/Prefabs/peugeott_205.prefab
+  artifactKey: Guid(8ed30a1afa878444eb55989315b9d758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/peugeott_205.prefab using Guid(8ed30a1afa878444eb55989315b9d758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eaea55500a8ceb60b80d0ff89710189') in 0.010559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.887615 seconds.
+  path: Assets/Car/Prefabs/peugeott_205.prefab
+  artifactKey: Guid(8ed30a1afa878444eb55989315b9d758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/peugeott_205.prefab using Guid(8ed30a1afa878444eb55989315b9d758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3dbe7f9e0cf573037552a797c69655f') in 0.011027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.350296 seconds.
+  path: Assets/Car/Prefabs/peugeott_205.prefab
+  artifactKey: Guid(8ed30a1afa878444eb55989315b9d758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/peugeott_205.prefab using Guid(8ed30a1afa878444eb55989315b9d758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dd42f9403c407a511a51046d7f695c1') in 0.012382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.473206 seconds.
+  path: Assets/Car/Prefabs/peugeott_205.prefab
+  artifactKey: Guid(8ed30a1afa878444eb55989315b9d758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/peugeott_205.prefab using Guid(8ed30a1afa878444eb55989315b9d758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc02d5fd640f9c3ac3d58ffcb43bda6') in 0.012798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.624513 seconds.
+  path: Assets/Car/Prefabs/peugeott_205.prefab
+  artifactKey: Guid(8ed30a1afa878444eb55989315b9d758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/peugeott_205.prefab using Guid(8ed30a1afa878444eb55989315b9d758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cbb29d429fa79bfbe258191e2de15f9') in 0.011971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.616761 seconds.
+  path: Assets/Car/Prefabs/peugeott_205.prefab
+  artifactKey: Guid(8ed30a1afa878444eb55989315b9d758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/peugeott_205.prefab using Guid(8ed30a1afa878444eb55989315b9d758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78cc33de4b2ca0a50959a449e3c3073c') in 0.011872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.798840 seconds.
+  path: Assets/Car/Prefabs/peugeott_205.prefab
+  artifactKey: Guid(8ed30a1afa878444eb55989315b9d758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/peugeott_205.prefab using Guid(8ed30a1afa878444eb55989315b9d758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf042ba43e06166226ba39d9b6bbcfca') in 0.011636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.189026 seconds.
+  path: Assets/Car/Prefabs/peugeott_205.prefab
+  artifactKey: Guid(8ed30a1afa878444eb55989315b9d758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/peugeott_205.prefab using Guid(8ed30a1afa878444eb55989315b9d758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '358770e72591a337a142df635987cfea') in 0.011025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.446670 seconds.
+  path: Assets/Car/Prefabs/peugeott_205.prefab
+  artifactKey: Guid(8ed30a1afa878444eb55989315b9d758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/peugeott_205.prefab using Guid(8ed30a1afa878444eb55989315b9d758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34058730b015feee9a2a67231bc6f287') in 0.010294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.844207 seconds.
+  path: Assets/Car/Prefabs/peugeott_205.prefab
+  artifactKey: Guid(8ed30a1afa878444eb55989315b9d758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/peugeott_205.prefab using Guid(8ed30a1afa878444eb55989315b9d758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1173b271d118062954037786276e7ee4') in 0.011673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.031363 seconds.
+  path: Assets/Car/Prefabs/peugeott_205.prefab
+  artifactKey: Guid(8ed30a1afa878444eb55989315b9d758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/peugeott_205.prefab using Guid(8ed30a1afa878444eb55989315b9d758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92450bb73611d5e415fba8fc318ffabf') in 0.009968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.277818 seconds.
+  path: Assets/Car/Prefabs/peugeott_205.prefab
+  artifactKey: Guid(8ed30a1afa878444eb55989315b9d758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/peugeott_205.prefab using Guid(8ed30a1afa878444eb55989315b9d758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c31a18fe0f908682f90bfca04bd6dc') in 0.014002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.987498 seconds.
+  path: Assets/Car/Prefabs/peugeott_205.prefab
+  artifactKey: Guid(8ed30a1afa878444eb55989315b9d758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/peugeott_205.prefab using Guid(8ed30a1afa878444eb55989315b9d758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aafa1e9cd2acd2a0ebe7052447f4690') in 0.010321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.416738 seconds.
+  path: Assets/Car/Prefabs/peugeott_205.prefab
+  artifactKey: Guid(8ed30a1afa878444eb55989315b9d758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/peugeott_205.prefab using Guid(8ed30a1afa878444eb55989315b9d758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3a1c70abd165682029bfd054b01e145') in 0.010689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.100169 seconds.
+  path: Assets/Car/Prefabs/peugeott_205.prefab
+  artifactKey: Guid(8ed30a1afa878444eb55989315b9d758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/peugeott_205.prefab using Guid(8ed30a1afa878444eb55989315b9d758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00529d99111f3e1af86e52ad8ca94990') in 0.010416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.771954 seconds.
+  path: Assets/Car/Prefabs/Peugiot_405_T16.prefab
+  artifactKey: Guid(8e25cc09edd5f394a99b2e0e802596a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Peugiot_405_T16.prefab using Guid(8e25cc09edd5f394a99b2e0e802596a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a489d3883801097dc887d894b5f33f48') in 0.019541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.371941 seconds.
+  path: Assets/Car/Prefabs/Peugiot_405_T16.prefab
+  artifactKey: Guid(8e25cc09edd5f394a99b2e0e802596a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Peugiot_405_T16.prefab using Guid(8e25cc09edd5f394a99b2e0e802596a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aed413f48b3ab8cc8cf1ec3e158fca91') in 0.011874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.515837 seconds.
+  path: Assets/Car/Prefabs/Peugiot_405_T16.prefab
+  artifactKey: Guid(8e25cc09edd5f394a99b2e0e802596a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Peugiot_405_T16.prefab using Guid(8e25cc09edd5f394a99b2e0e802596a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d300feefa8ee6c5f365760af85caa3f') in 0.011349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.720537 seconds.
+  path: Assets/Car/Prefabs/Peugiot_405_T16.prefab
+  artifactKey: Guid(8e25cc09edd5f394a99b2e0e802596a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Peugiot_405_T16.prefab using Guid(8e25cc09edd5f394a99b2e0e802596a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6643d9e0022ffc14755b7ea22395566') in 0.011487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.676899 seconds.
+  path: Assets/Car/Prefabs/Peugiot_405_T16.prefab
+  artifactKey: Guid(8e25cc09edd5f394a99b2e0e802596a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Peugiot_405_T16.prefab using Guid(8e25cc09edd5f394a99b2e0e802596a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '181958b9f3c2d6e007168d98e64586f6') in 0.013711 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.462556 seconds.
+  path: Assets/Car/Prefabs/Peugiot_405_T16.prefab
+  artifactKey: Guid(8e25cc09edd5f394a99b2e0e802596a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Peugiot_405_T16.prefab using Guid(8e25cc09edd5f394a99b2e0e802596a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a240d974dd5e7ebae7cd54c972a31b50') in 0.011348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.453043 seconds.
+  path: Assets/Car/Prefabs/Peugiot_405_T16.prefab
+  artifactKey: Guid(8e25cc09edd5f394a99b2e0e802596a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Peugiot_405_T16.prefab using Guid(8e25cc09edd5f394a99b2e0e802596a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71a84b4b1b023b0c6fab09d5d8e613e0') in 0.011637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.338074 seconds.
+  path: Assets/Car/Prefabs/Peugiot_405_T16.prefab
+  artifactKey: Guid(8e25cc09edd5f394a99b2e0e802596a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Peugiot_405_T16.prefab using Guid(8e25cc09edd5f394a99b2e0e802596a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3acabc1f5a3ec95bfac0a92d3eb7246e') in 0.011361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.710944 seconds.
+  path: Assets/Car/Prefabs/Peugiot_405_T16.prefab
+  artifactKey: Guid(8e25cc09edd5f394a99b2e0e802596a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Peugiot_405_T16.prefab using Guid(8e25cc09edd5f394a99b2e0e802596a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a547ed21faa0265acbc877c956a1556') in 0.009923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.245438 seconds.
+  path: Assets/Car/Prefabs/Peugiot_405_T16.prefab
+  artifactKey: Guid(8e25cc09edd5f394a99b2e0e802596a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Peugiot_405_T16.prefab using Guid(8e25cc09edd5f394a99b2e0e802596a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faa01007376257ad2e871bbd19961139') in 0.010402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.194516 seconds.
+  path: Assets/Car/Prefabs/Peugiot_405_T16.prefab
+  artifactKey: Guid(8e25cc09edd5f394a99b2e0e802596a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Peugiot_405_T16.prefab using Guid(8e25cc09edd5f394a99b2e0e802596a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5099b8203a0da5f112430009dc4236a2') in 0.010069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.399886 seconds.
+  path: Assets/Car/Prefabs/Peugiot_405_T16.prefab
+  artifactKey: Guid(8e25cc09edd5f394a99b2e0e802596a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Peugiot_405_T16.prefab using Guid(8e25cc09edd5f394a99b2e0e802596a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a635c9e9a37188525e2f083f143fbf1d') in 0.010904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.213526 seconds.
+  path: Assets/Car/Prefabs/Peugiot_405_T16.prefab
+  artifactKey: Guid(8e25cc09edd5f394a99b2e0e802596a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Peugiot_405_T16.prefab using Guid(8e25cc09edd5f394a99b2e0e802596a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8865a12dace864db2277902e65a2dee') in 0.011385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.474526 seconds.
+  path: Assets/Car/Prefabs/Peugiot_405_T16.prefab
+  artifactKey: Guid(8e25cc09edd5f394a99b2e0e802596a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Peugiot_405_T16.prefab using Guid(8e25cc09edd5f394a99b2e0e802596a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b58fbd941a2809d396c110521c5ba17') in 0.011414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.804056 seconds.
+  path: Assets/Car/Prefabs/Peugiot_405_T16.prefab
+  artifactKey: Guid(8e25cc09edd5f394a99b2e0e802596a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Peugiot_405_T16.prefab using Guid(8e25cc09edd5f394a99b2e0e802596a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0673fb0b6145b644a84e62dc328d838') in 0.010230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.212455 seconds.
+  path: Assets/Car/Prefabs/Peugiot_405_T16.prefab
+  artifactKey: Guid(8e25cc09edd5f394a99b2e0e802596a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Peugiot_405_T16.prefab using Guid(8e25cc09edd5f394a99b2e0e802596a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb8bdba0ff7ced64525b91d01cbd89b') in 0.010738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.908326 seconds.
+  path: Assets/Car/Prefabs/Peugiot_405_T16.prefab
+  artifactKey: Guid(8e25cc09edd5f394a99b2e0e802596a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Peugiot_405_T16.prefab using Guid(8e25cc09edd5f394a99b2e0e802596a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f2f8e112f9fb683b76cb7ac4ceef91') in 0.009694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.881219 seconds.
+  path: Assets/Car/Prefabs/Peugiot_405_T16.prefab
+  artifactKey: Guid(8e25cc09edd5f394a99b2e0e802596a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Peugiot_405_T16.prefab using Guid(8e25cc09edd5f394a99b2e0e802596a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282ed6ef19876db0052f16a399ac39b0') in 0.011586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.393943 seconds.
+  path: Assets/Car/Prefabs/Peugiot_405_T16.prefab
+  artifactKey: Guid(8e25cc09edd5f394a99b2e0e802596a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Peugiot_405_T16.prefab using Guid(8e25cc09edd5f394a99b2e0e802596a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '754d4473078c9536a76b0e1ae28e8056') in 0.011325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.074942 seconds.
+  path: Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab
+  artifactKey: Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab using Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e2bbf5e6ce8fb5109077a0fc12c3a7') in 0.011393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.198123 seconds.
+  path: Assets/Car/Prefabs/Peugiot_405_T16.prefab
+  artifactKey: Guid(8e25cc09edd5f394a99b2e0e802596a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Peugiot_405_T16.prefab using Guid(8e25cc09edd5f394a99b2e0e802596a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '659cbc4b1d990d6b64cc506b9903bebd') in 0.011278 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.644014 seconds.
+  path: Assets/Car/Prefabs/Mittsubisi_Lancer_GSR.prefab
+  artifactKey: Guid(0c46890417ee50f4e89ccff14d280e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Mittsubisi_Lancer_GSR.prefab using Guid(0c46890417ee50f4e89ccff14d280e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e999229c0358fb9638b5b682afd3edb3') in 0.010847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.213339 seconds.
+  path: Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab
+  artifactKey: Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab using Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25b71ab8cd43e55b301ac1b16780d83') in 0.011471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.439058 seconds.
+  path: Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab
+  artifactKey: Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab using Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d94597ff4963820f47999abf70d487') in 0.011381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.650038 seconds.
+  path: Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab
+  artifactKey: Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab using Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a41c7196516037b0cbda7c9af72327') in 0.012921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.564453 seconds.
+  path: Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab
+  artifactKey: Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab using Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfbc43024984212df09fc20f310be911') in 0.021298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.627076 seconds.
+  path: Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab
+  artifactKey: Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab using Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '131b9965efc239069a8c600caf6f9db4') in 0.010859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.233734 seconds.
+  path: Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab
+  artifactKey: Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab using Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44f6e5e0cd1267d7c49122374f9be74e') in 0.011254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.304823 seconds.
+  path: Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab
+  artifactKey: Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab using Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fa6298891fd209b0d911fdbc206a58e') in 0.012358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.899125 seconds.
+  path: Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab
+  artifactKey: Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab using Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0716c543f7d69d0d1bcb4609de5a4a26') in 0.013151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.445066 seconds.
+  path: Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab
+  artifactKey: Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab using Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36bd73aa60aad70e5478825128fb218d') in 0.010617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.422543 seconds.
+  path: Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab
+  artifactKey: Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab using Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6f7ae98ab070a22d5196b07cbf9b8f') in 0.010933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.811403 seconds.
+  path: Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab
+  artifactKey: Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab using Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d5443a6d83f24cbd6b720b7d56e95f') in 0.011147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.628846 seconds.
+  path: Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab
+  artifactKey: Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab using Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8bb90a41c445936bd2422013db86502') in 0.010989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.508731 seconds.
+  path: Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab
+  artifactKey: Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab using Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b790cc5fc57afb9d57c3cdafa70a90') in 0.010265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.637893 seconds.
+  path: Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab
+  artifactKey: Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab using Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c9e72ac6dcad7ca8ab0c00e47ae8bf') in 0.011484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.479736 seconds.
+  path: Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab
+  artifactKey: Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab using Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a1573ffb2442823f3fd1d68b0f56a4b') in 0.023438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.750406 seconds.
+  path: Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab
+  artifactKey: Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab using Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61fdd0c545f4a8bbcecb353b53f6b99c') in 0.010944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.421920 seconds.
+  path: Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab
+  artifactKey: Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab using Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28ecc53a067d443b06314854ff21c8e8') in 0.011133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.370233 seconds.
+  path: Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab
+  artifactKey: Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab using Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '112eb4315539f59eb3575e044d235d6d') in 0.011373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.179836 seconds.
+  path: Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab
+  artifactKey: Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab using Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a135d1a7fc7eb0fc88b9280edf4098') in 0.011542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.416833 seconds.
+  path: Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab
+  artifactKey: Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab using Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e34cf16ef5d659d906ead0df07e5961') in 0.010737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 198.997985 seconds.
+  path: Assets/Car/Prefabs/AI/Audii_Sport_Quattroo_S1 Variant.prefab
+  artifactKey: Guid(d162d0470c06d4d4a8b4036e33572194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/AI/Audii_Sport_Quattroo_S1 Variant.prefab using Guid(d162d0470c06d4d4a8b4036e33572194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b8d691754235b219eb453e0083ed81f') in 0.048604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Car/Prefabs/AI/Peugiot_405_T16 Variant.prefab
+  artifactKey: Guid(0cc0856ab9d351f40bbaa887b86d45a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/AI/Peugiot_405_T16 Variant.prefab using Guid(0cc0856ab9d351f40bbaa887b86d45a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a86406b7a32f73d6797494dd7f9e5de') in 0.026691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Car/Prefabs/AI/Toyotta_Celicca_GT Variant.prefab
+  artifactKey: Guid(0e720587290ab8a44ab694029a59459a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/AI/Toyotta_Celicca_GT Variant.prefab using Guid(0e720587290ab8a44ab694029a59459a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0d110a6cdf0a4806a969e82d39215e6') in 0.017763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Car/Prefabs/AI/Mittsubisi_Lancer_GSR Variant.prefab
+  artifactKey: Guid(1c0dc3e6c6ca75141a6164011e169459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/AI/Mittsubisi_Lancer_GSR Variant.prefab using Guid(1c0dc3e6c6ca75141a6164011e169459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6747d5c484dd1c4c3a3c07d0cdfab825') in 0.023081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Car/Prefabs/AI/peugeott_205 Variant.prefab
+  artifactKey: Guid(7b0f85aa197823b479d61be9fb841a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/AI/peugeott_205 Variant.prefab using Guid(7b0f85aa197823b479d61be9fb841a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b834e84b07f698d0396c498266002b18') in 0.023926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Car/Prefabs/AI/Fordd_RS_200 Variant.prefab
+  artifactKey: Guid(4a942021334070049966558cf94f0cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/AI/Fordd_RS_200 Variant.prefab using Guid(4a942021334070049966558cf94f0cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612ee56544a119c246512952b3461933') in 0.013993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Car/Prefabs/AI/Lanncia_Stratoss_Group_4 Variant.prefab
+  artifactKey: Guid(7ce8d25b83e4e494f98127dff2f0b5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/AI/Lanncia_Stratoss_Group_4 Variant.prefab using Guid(7ce8d25b83e4e494f98127dff2f0b5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd852c1ff6a41267a47f1f64ad20a7716') in 0.022098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.641835 seconds.
+  path: Assets/Scenes/Cars.unity
+  artifactKey: Guid(8f13f4c44b24a89459d8178a8146da1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Cars.unity using Guid(8f13f4c44b24a89459d8178a8146da1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f90a9da365624238a3e87801a59435') in 0.008725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 72.914125 seconds.
+  path: Assets/UI/Scripts/PlayerSelect.cs
+  artifactKey: Guid(6961217fdce8ecb4dad2f8c2874de411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Scripts/PlayerSelect.cs using Guid(6961217fdce8ecb4dad2f8c2874de411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a1d93001eee363ef0f5e4ec29655ec') in 0.023307 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003869 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Projects\track-racing\Road\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Projects\track-racing\Road\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.176 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1177ms)
+		BeginReloadAssembly (148ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (935ms)
+			LoadAssemblies (98ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (270ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (344ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (48ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (204ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3083 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (81.4 KB). Loaded Objects now: 3587.
+Memory consumption went from 127.8 MB to 127.7 MB.
+Total: 3.210100 ms (FindLiveObjects: 0.354400 ms CreateObjectMapping: 0.162200 ms MarkObjects: 2.557600 ms  DeleteObjects: 0.133600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003531 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Projects\track-racing\Road\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Projects\track-racing\Road\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.025 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1026ms)
+		BeginReloadAssembly (162ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (754ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (286ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (293ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (205ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3083 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (81.6 KB). Loaded Objects now: 3590.
+Memory consumption went from 127.8 MB to 127.7 MB.
+Total: 3.222400 ms (FindLiveObjects: 0.355800 ms CreateObjectMapping: 0.161200 ms MarkObjects: 2.571900 ms  DeleteObjects: 0.131400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002502 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Projects\track-racing\Road\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Projects\track-racing\Road\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.163 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1163ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (929ms)
+			LoadAssemblies (87ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (450ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (307ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (211ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3083 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (81.5 KB). Loaded Objects now: 3593.
+Memory consumption went from 127.8 MB to 127.7 MB.
+Total: 3.518500 ms (FindLiveObjects: 0.376400 ms CreateObjectMapping: 0.094200 ms MarkObjects: 2.908400 ms  DeleteObjects: 0.137200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003558 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Projects\track-racing\Road\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Projects\track-racing\Road\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.994 seconds
+Domain Reload Profiling:
+	ReloadAssembly (994ms)
+		BeginReloadAssembly (158ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (741ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (267ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (295ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (205ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3083 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (81.6 KB). Loaded Objects now: 3596.
+Memory consumption went from 127.8 MB to 127.7 MB.
+Total: 3.100000 ms (FindLiveObjects: 0.264200 ms CreateObjectMapping: 0.083500 ms MarkObjects: 2.634900 ms  DeleteObjects: 0.115800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 696.018493 seconds.
+  path: Assets/Scenes/Select.unity
+  artifactKey: Guid(d5421a7ae74f2e74c941ad3e9d604eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Select.unity using Guid(d5421a7ae74f2e74c941ad3e9d604eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c29565d2adadd9862f0593521923f0') in 0.013226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.905457 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(3e4aa7509d55b774dace55e4519f989d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(3e4aa7509d55b774dace55e4519f989d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa8973266018d342f2648a8187d66914') in 0.008572 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002748 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Projects\track-racing\Road\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Projects\track-racing\Road\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.264 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1265ms)
+		BeginReloadAssembly (150ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (1025ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (512ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (322ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (230ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3083 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (81.6 KB). Loaded Objects now: 3599.
+Memory consumption went from 127.8 MB to 127.7 MB.
+Total: 3.186300 ms (FindLiveObjects: 0.346300 ms CreateObjectMapping: 0.156500 ms MarkObjects: 2.568200 ms  DeleteObjects: 0.113400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002646 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Projects\track-racing\Road\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Projects\track-racing\Road\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.993 seconds
+Domain Reload Profiling:
+	ReloadAssembly (994ms)
+		BeginReloadAssembly (161ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (735ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (276ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (293ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (203ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3083 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (81.6 KB). Loaded Objects now: 3602.
+Memory consumption went from 127.8 MB to 127.7 MB.
+Total: 3.135000 ms (FindLiveObjects: 0.319200 ms CreateObjectMapping: 0.131300 ms MarkObjects: 2.557500 ms  DeleteObjects: 0.124700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003927 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Projects\track-racing\Road\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Projects\track-racing\Road\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.012 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1013ms)
+		BeginReloadAssembly (164ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (756ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (284ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (310ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (221ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3083 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (81.5 KB). Loaded Objects now: 3605.
+Memory consumption went from 127.8 MB to 127.7 MB.
+Total: 3.347600 ms (FindLiveObjects: 0.285100 ms CreateObjectMapping: 0.087700 ms MarkObjects: 2.828600 ms  DeleteObjects: 0.144300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 166.826468 seconds.
+  path: Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab
+  artifactKey: Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab using Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb252d23409c6ff6025b8acf9a67b1c9') in 0.294286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.938544 seconds.
+  path: Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab
+  artifactKey: Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab using Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adb4dab46fb9455a9adc6ff28b3103f7') in 0.010619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.040659 seconds.
+  path: Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab
+  artifactKey: Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab using Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43105dbe4ebd16723a61081850a5c93d') in 0.012681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.449223 seconds.
+  path: Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab
+  artifactKey: Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab using Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1427a03874ed82c457cee6d837da2d25') in 0.010562 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002710 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Projects\track-racing\Road\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Projects\track-racing\Road\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.950 seconds
+Domain Reload Profiling:
+	ReloadAssembly (950ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (705ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (268ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (278ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (197ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3083 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (81.5 KB). Loaded Objects now: 3608.
+Memory consumption went from 127.8 MB to 127.7 MB.
+Total: 3.131300 ms (FindLiveObjects: 0.333800 ms CreateObjectMapping: 0.102300 ms MarkObjects: 2.569900 ms  DeleteObjects: 0.123300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002893 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Projects\track-racing\Road\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Projects\track-racing\Road\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.967 seconds
+Domain Reload Profiling:
+	ReloadAssembly (968ms)
+		BeginReloadAssembly (154ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (715ms)
+			LoadAssemblies (99ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (269ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (289ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (203ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3083 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (81.5 KB). Loaded Objects now: 3611.
+Memory consumption went from 127.8 MB to 127.7 MB.
+Total: 5.073200 ms (FindLiveObjects: 0.443700 ms CreateObjectMapping: 0.254300 ms MarkObjects: 4.202900 ms  DeleteObjects: 0.169200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 166.459848 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3877ce8c7a62de4bb8e778ee553b99f8') in 0.014693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.058949 seconds.
+  path: Assets/Car/Prefabs/AI/Fordd_Focus_RS_WRC Variant.prefab
+  artifactKey: Guid(33373b562cef03c4983353e8b2960aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/AI/Fordd_Focus_RS_WRC Variant.prefab using Guid(33373b562cef03c4983353e8b2960aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '356df46fb3cceae654e9ccbe01714485') in 0.079077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 78.660457 seconds.
+  path: Assets/Car/Prefabs/AI/Fordd_RS_200 Variant.prefab
+  artifactKey: Guid(4a942021334070049966558cf94f0cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/AI/Fordd_RS_200 Variant.prefab using Guid(4a942021334070049966558cf94f0cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9f1bad7a9ffeeb8aab06cfe004ae3d') in 0.065645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Car/Prefabs/AI/Peugiot_405_T16 Variant.prefab
+  artifactKey: Guid(0cc0856ab9d351f40bbaa887b86d45a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/AI/Peugiot_405_T16 Variant.prefab using Guid(0cc0856ab9d351f40bbaa887b86d45a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f300c77f6d54638b8d85357c5f9e0251') in 0.021063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Car/Prefabs/AI/Mittsubisi_Lancer_GSR Variant.prefab
+  artifactKey: Guid(1c0dc3e6c6ca75141a6164011e169459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/AI/Mittsubisi_Lancer_GSR Variant.prefab using Guid(1c0dc3e6c6ca75141a6164011e169459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55841e280493b623c704c42cb9e2fa7') in 0.024730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Car/Prefabs/AI/Fordd_Focus_RS_WRC Variant.prefab
+  artifactKey: Guid(33373b562cef03c4983353e8b2960aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/AI/Fordd_Focus_RS_WRC Variant.prefab using Guid(33373b562cef03c4983353e8b2960aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66c1f66cdd43e73c2c5000c0adf7a0b7') in 0.019912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.909489 seconds.
+  path: Assets/Car/Prefabs/Fordd_RS_200.prefab
+  artifactKey: Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Fordd_RS_200.prefab using Guid(82efd3e2de9e6cf4e9f6f193c99ba72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1869eb62f0ce0fe46944082c69e50f0e') in 0.018745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Car/Prefabs/Mittsubisi_Lancer_GSR.prefab
+  artifactKey: Guid(0c46890417ee50f4e89ccff14d280e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Mittsubisi_Lancer_GSR.prefab using Guid(0c46890417ee50f4e89ccff14d280e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05e9089bba940f8af74cc0905395bf8') in 0.015588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab
+  artifactKey: Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Toyotta_Celicca_GT.prefab using Guid(6641eee37a124604d8b604928849579f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8df1925fb64c4cfc2ff3bd254a52952') in 0.013099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Car/Prefabs/Peugiot_405_T16.prefab
+  artifactKey: Guid(8e25cc09edd5f394a99b2e0e802596a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Peugiot_405_T16.prefab using Guid(8e25cc09edd5f394a99b2e0e802596a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a374937359fc171c1fc617b84b3490') in 0.018218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.569332 seconds.
+  path: Assets/Car/Prefabs/AI/Fordd_RS_200 Variant.prefab
+  artifactKey: Guid(4a942021334070049966558cf94f0cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/AI/Fordd_RS_200 Variant.prefab using Guid(4a942021334070049966558cf94f0cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '474be25ef73def3661b1edd9d8a9411e') in 0.010433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013127 seconds.
+  path: Assets/Car/Prefabs/AI/Fordd_Focus_RS_WRC Variant.prefab
+  artifactKey: Guid(33373b562cef03c4983353e8b2960aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/AI/Fordd_Focus_RS_WRC Variant.prefab using Guid(33373b562cef03c4983353e8b2960aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b604d2754a8ed57cbbc8ed8e83a120') in 0.013240 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Car/Prefabs/AI/Peugiot_405_T16 Variant.prefab
+  artifactKey: Guid(0cc0856ab9d351f40bbaa887b86d45a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/AI/Peugiot_405_T16 Variant.prefab using Guid(0cc0856ab9d351f40bbaa887b86d45a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e09ad4e601f504894fb65553de2730') in 0.014136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.113076 seconds.
+  path: Assets/Car/Prefabs/AI/Fordd_RS_200 Variant.prefab
+  artifactKey: Guid(4a942021334070049966558cf94f0cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/AI/Fordd_RS_200 Variant.prefab using Guid(4a942021334070049966558cf94f0cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36dd6b4f3ab9a5c565a16bfc72c80b31') in 0.010982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004958 seconds.
+  path: Assets/Car/Prefabs/AI/Fordd_Focus_RS_WRC Variant.prefab
+  artifactKey: Guid(33373b562cef03c4983353e8b2960aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/AI/Fordd_Focus_RS_WRC Variant.prefab using Guid(33373b562cef03c4983353e8b2960aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '470b1d9e0bee0614528a2de2b1d54f4e') in 0.012730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Car/Prefabs/AI/Peugiot_405_T16 Variant.prefab
+  artifactKey: Guid(0cc0856ab9d351f40bbaa887b86d45a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/AI/Peugiot_405_T16 Variant.prefab using Guid(0cc0856ab9d351f40bbaa887b86d45a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '413e890e4c19fb5af9ed13322b91b951') in 0.012320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.193829 seconds.
+  path: Assets/Car/Prefabs/AI/Fordd_RS_200 Variant.prefab
+  artifactKey: Guid(4a942021334070049966558cf94f0cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/AI/Fordd_RS_200 Variant.prefab using Guid(4a942021334070049966558cf94f0cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f109d20a41f4d73d6c557a365a7dac2') in 0.010364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008493 seconds.
+  path: Assets/Car/Prefabs/AI/Fordd_Focus_RS_WRC Variant.prefab
+  artifactKey: Guid(33373b562cef03c4983353e8b2960aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/AI/Fordd_Focus_RS_WRC Variant.prefab using Guid(33373b562cef03c4983353e8b2960aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849f190405a99ac3ed9eb33264b861dc') in 0.013158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Car/Prefabs/AI/Peugiot_405_T16 Variant.prefab
+  artifactKey: Guid(0cc0856ab9d351f40bbaa887b86d45a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/AI/Peugiot_405_T16 Variant.prefab using Guid(0cc0856ab9d351f40bbaa887b86d45a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f561ef26ef085211cd80d56d5b4e96') in 0.012199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.745586 seconds.
+  path: Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab
+  artifactKey: Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/Lanncia_Stratoss_Group_4.prefab using Guid(d9385a8bb3cdea840807f0f1c0c426ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba64228560d0fb921713907f5f532826') in 0.010144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 79.108841 seconds.
+  path: Assets/Car/Prefabs/AI/Audii_Sport_Quattroo_S1 Variant.prefab
+  artifactKey: Guid(d162d0470c06d4d4a8b4036e33572194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/AI/Audii_Sport_Quattroo_S1 Variant.prefab using Guid(d162d0470c06d4d4a8b4036e33572194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8701d528e9160a15afbf87c148e6ee56') in 0.020634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Car/Prefabs/AI/Toyotta_Celicca_GT Variant.prefab
+  artifactKey: Guid(0e720587290ab8a44ab694029a59459a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/AI/Toyotta_Celicca_GT Variant.prefab using Guid(0e720587290ab8a44ab694029a59459a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2618831d9046bd871fde317fe6c5cf') in 0.015659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Car/Prefabs/AI/Mittsubisi_Lancer_GSR Variant.prefab
+  artifactKey: Guid(1c0dc3e6c6ca75141a6164011e169459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/AI/Mittsubisi_Lancer_GSR Variant.prefab using Guid(1c0dc3e6c6ca75141a6164011e169459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed404f65cf1763e13ec8dc0134b2006') in 0.016706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Car/Prefabs/AI/Lanncia_Stratoss_Group_4 Variant.prefab
+  artifactKey: Guid(7ce8d25b83e4e494f98127dff2f0b5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Car/Prefabs/AI/Lanncia_Stratoss_Group_4 Variant.prefab using Guid(7ce8d25b83e4e494f98127dff2f0b5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5fabfbb5dee67d27466cd99677b4035') in 0.015959 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
