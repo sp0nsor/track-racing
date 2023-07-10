@@ -21,11 +21,11 @@ public class CarAI : MonoBehaviour
     private Rigidbody rb;
     Vector3 vectorMass;
     [SerializeField] private float maxSpeed;
-    private void Awake()
+    private void Start()
     {
         centerOfMass.transform.position = vectorMass;
         rb = GetComponent<Rigidbody>();
-        rb.centerOfMass = vectorMass;
+        rb.centerOfMass = new Vector3 (0f, -0.4f, 0f);
     }
 
     [Range(-1, 1)]
