@@ -362,6 +362,8 @@
 "Assets/Car/Scripts/CameraController.cs"
 "Assets/Car/Scripts/CarAI.cs"
 "Assets/Car/Scripts/CarController.cs"
+"Assets/Car/Scripts/EngineSound.cs"
+"Assets/Car/Scripts/TransmissionController.cs"
 "Assets/Road/Barrier Pack/Scripts/ContrastStretch.cs"
 "Assets/Road/Barrier Pack/Scripts/GlobalFog.cs"
 "Assets/Road/Barrier Pack/Scripts/PostEffectsBase.cs"

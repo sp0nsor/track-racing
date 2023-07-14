@@ -9,7 +9,7 @@ public class CarController : MonoBehaviour
     [SerializeField] private Transform transformBL;
     [SerializeField] private Transform transformBR;
 
-    [SerializeField] private WheelCollider wheelColliderFL;
+    [SerializeField] public WheelCollider wheelColliderFL;
     [SerializeField] private WheelCollider wheelColliderFR;
     [SerializeField] private WheelCollider wheelColliderBL;
     [SerializeField] private WheelCollider wheelColliderBR;
@@ -29,7 +29,7 @@ public class CarController : MonoBehaviour
     {
         centerMass.transform.position = vectorMass;
         rb = GetComponent<Rigidbody>();
-        rb.centerOfMass = vectorMass;
+        rb.centerOfMass = new Vector3(0f, -0.3f, 0f);
     }
 
     private void FixedUpdate()
