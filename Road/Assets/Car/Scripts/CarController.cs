@@ -9,7 +9,7 @@ public class CarController : MonoBehaviour
     [SerializeField] private Transform transformBL;
     [SerializeField] private Transform transformBR;
 
-    [SerializeField] private WheelCollider wheelColliderFL;
+    [SerializeField] public WheelCollider wheelColliderFL;
     [SerializeField] private WheelCollider wheelColliderFR;
     [SerializeField] private WheelCollider wheelColliderBL;
     [SerializeField] private WheelCollider wheelColliderBR;
