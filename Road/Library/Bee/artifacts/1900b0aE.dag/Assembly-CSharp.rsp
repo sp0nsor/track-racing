@@ -371,6 +371,7 @@
 "Assets/Road/Scripts/WayPoint.cs"
 "Assets/UI/Scripts/MainMenu.cs"
 "Assets/UI/Scripts/PlayerSelect.cs"
+"Assets/UI/Scripts/Speedometer.cs"
 -langversion:9.0
 
 /deterministic
