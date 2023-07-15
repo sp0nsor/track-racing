@@ -8,6 +8,7 @@ public class PlayerSelect : MonoBehaviour
     private GameObject[] cars;
     private int index;
     private CameraController cameraController;
+    private Speedometer speedometer;
 
     private void Start()
     {
@@ -30,6 +31,13 @@ public class PlayerSelect : MonoBehaviour
         }
         cameraController = Camera.main.GetComponent<CameraController>();
         cameraController.SetTarget(cars[index].transform);
+
+        speedometer = FindObjectOfType<Speedometer>();
+        if (speedometer != null)
+        {
+            Rigidbody selectedRb = cars[index].GetComponent<Rigidbody>();
+            speedometer.SetTargetRb(selectedRb);
+        }
     }
 
     public void SelectLeft()
@@ -44,6 +52,12 @@ public class PlayerSelect : MonoBehaviour
 
         cars[index].SetActive(true);
         cameraController.SetTarget(cars[index].transform);
+
+        if (speedometer != null)
+        {
+            Rigidbody selectedRb = cars[index].GetComponent<Rigidbody>();
+            speedometer.SetTargetRb(selectedRb);
+        }
     }
 
     public void SelectRight()
@@ -58,6 +72,12 @@ public class PlayerSelect : MonoBehaviour
 
         cars[index].SetActive(true);
         cameraController.SetTarget(cars[index].transform);
+
+        if (speedometer != null)
+        {
+            Rigidbody selectedRb = cars[index].GetComponent<Rigidbody>();
+            speedometer.SetTargetRb(selectedRb);
+        }
     }
 
     public void StartScene()
